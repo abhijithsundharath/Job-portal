@@ -9,7 +9,7 @@ import Footer from './components/footer';
 function App() {
   const [jobs, setJobs] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://job-portal-backend-7s6u.onrender.com';
 
   // fetchjobs from backend
   useEffect(() => {
